@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T04:36:44.318Z" agent="5.0 (Windows)" version="15.0.5" etag="0QHeWZ1Vxwzy4OiZfCG7" type="github"><diagram id="P5DyRsoxbeQFbh33zAbO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-07T05:11:04.275Z" agent="5.0 (Windows)" etag="-bgDrVbqOtNXxRAk8D7L" version="15.0.5" type="github">
+  <diagram id="P5DyRsoxbeQFbh33zAbO" name="Page-1">
+    <mxGraphModel dx="918" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WB32RhyTPv2CYussSRTI-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WB32RhyTPv2CYussSRTI-17" target="WB32RhyTPv2CYussSRTI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-17" value="&lt;b&gt;Weight layer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WB32RhyTPv2CYussSRTI-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-19" value="&lt;b&gt;Weight layer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-21" value="&lt;b&gt;ReLU&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="240" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-22" value="&lt;b&gt;F(x)=H(x)-x&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-23" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-29" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="395" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-30" value="" style="line;strokeWidth=2;html=1;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="375" y="390" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.8" y="100" as="sourcePoint" />
+            <mxPoint x="379.8" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-35" value="&lt;b&gt;x&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-40" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="WB32RhyTPv2CYussSRTI-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="130" as="sourcePoint" />
+            <mxPoint x="580" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="130" />
+              <mxPoint x="580" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-41" value="&lt;div&gt;&lt;b&gt;x&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;identity&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WB32RhyTPv2CYussSRTI-42" value="&lt;b&gt;F(x)+x&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="50" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
